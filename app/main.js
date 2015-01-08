@@ -1,1 +1,5 @@
-console.log('Hello from the main module!');
+var identity = require('./identity');
+
+exports.main = function() {
+	console.log(identity('Hello from the main module!'));
+}
