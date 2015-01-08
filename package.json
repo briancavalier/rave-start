@@ -11,6 +11,7 @@
     "serv": "0.0.7"
   },
   "scripts": {
-    "start": "serv"
+    "start": "serv",
+    "test": "buster-test -e node"
   }
 }
